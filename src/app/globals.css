@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* ─── Design Tokens — Ultra-Premium Dark Mode ─── */
+@theme inline {
+  --color-background: #020617;
+  --color-foreground: #e2e8f0;
+
+  /* Primary — Emerald Glow */
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-100: #d1fae5;
+  --color-emerald-200: #a7f3d0;
+  --color-emerald-300: #6ee7b7;
+  --color-emerald-400: #34d399;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+  --color-emerald-800: #065f46;
+  --color-emerald-900: #064e3b;
+
+  /* Cyan Accent */
+  --color-cyan-400: #22d3ee;
+  --color-cyan-500: #06b6d4;
+
+  /* Slate — Dark Foundation */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-850: #162032;
+  --color-slate-900: #0f172a;
+  --color-slate-950: #020617;
+
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ─── Base ─── */
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-slate-950);
+  color: var(--color-slate-200);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* ─── Custom Scrollbar (Dark) ─── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-slate-900);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-emerald-500);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-emerald-400);
+}
+
+/* ─── Selection ─── */
+::selection {
+  background: rgba(16, 185, 129, 0.3);
+  color: #ffffff;
+}
+
+/* ─── Utility classes ─── */
+.glass-dark {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 40px rgba(16, 185, 129, 0.1), 0 0 80px rgba(16, 185, 129, 0.05);
+}
+
+.glow-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.5), transparent);
+}
