@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Phone, MapPin, Clock, ArrowUpRight } from "lucide-react";
 
 const WHATSAPP_URL =
-  "https://wa.me/919955793186?text=Hello%20Morari%20Medico,%20I%20want%20to%20book%20a%20slot%20with%20Dr.%20A.K.%20Ghosh.";
+  "https://wa.me/919955793186?text=Hello%20Murari%20Medico,%20I%20want%20to%20book%20a%20slot%20with%20Dr.%20A.K.%20Ghosh.";
 
 const QUICK_LINKS = [
   { label: "Home", href: "#home" },
@@ -45,7 +45,7 @@ export default function Footer() {
             <div className="mb-4">
               <Image
                 src="/images/Morari Medico logo.png"
-                alt="Morari Medico Logo"
+                alt="Murari Medico Logo"
                 width={160}
                 height={44}
                 className="h-9 w-auto object-contain brightness-110"
@@ -130,11 +130,16 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-slate-600">
-            &copy; {new Date().getFullYear()} Morari Medico. All rights reserved.
+            &copy; {new Date().getFullYear()} Murari Medico. All rights reserved.
           </p>
-          <p className="text-xs text-slate-600">
-            Proprietor: Murari Kumar Singh
-          </p>
+          <div className="flex flex-col items-end gap-1 text-right">
+            <p className="text-xs text-slate-600">
+              Proprietor: Murari Kumar Singh
+            </p>
+            <p className="text-[10px] text-slate-700">
+              Developed by Aditya Kumar Mishra | +91 8434978269
+            </p>
+          </div>
         </div>
       </div>
     </footer>

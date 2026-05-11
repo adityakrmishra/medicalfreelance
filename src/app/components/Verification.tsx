@@ -49,7 +49,7 @@ export default function Verification() {
             custom={2}
             className="mt-4 text-base text-slate-400 max-w-2xl mx-auto"
           >
-            Morari Medico is a fully licensed, government-verified pharmacy and clinic
+            Murari Medico is a fully licensed, government-verified pharmacy and clinic
             operated by proprietor{" "}
             <span className="font-semibold text-slate-200">Murari Kumar Singh</span>.
             Every medicine we dispense is authentic, properly stored, and sourced directly
@@ -77,7 +77,7 @@ export default function Verification() {
           <div>
             <p className="font-bold text-white">Murari Kumar Singh</p>
             <p className="text-sm text-slate-400">
-              Proprietor &amp; Owner — Morari Medico
+              Proprietor &amp; Owner — Murari Medico
             </p>
           </div>
         </motion.div>

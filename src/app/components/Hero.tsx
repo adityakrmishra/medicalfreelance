@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, ShieldCheck, Clock } from "lucide-react";
 
 const WHATSAPP_URL =
-  "https://wa.me/919955793186?text=Hello%20Morari%20Medico,%20I%20want%20to%20book%20a%20slot%20with%20Dr.%20A.K.%20Ghosh.";
+  "https://wa.me/919955793186?text=Hello%20Murari%20Medico,%20I%20want%20to%20book%20a%20slot%20with%20Dr.%20A.K.%20Ghosh.";
 
 export default function Hero() {
   return (
@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/waiting &entry area.jpeg"
-          alt="Morari Medico Waiting & Entry Area"
+          alt="Murari Medico Waiting & Entry Area"
           fill
           priority
           className="object-cover"

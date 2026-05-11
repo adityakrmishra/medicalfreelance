@@ -7,7 +7,7 @@ import { Camera } from "lucide-react";
 const GALLERY_IMAGES = [
   {
     src: "/images/shop interior view.jpeg",
-    alt: "Morari Medico Pharmacy Interior",
+    alt: "Murari Medico Pharmacy Interior",
     label: "Pharmacy Interior",
     w: 1200,
     h: 800,
@@ -28,7 +28,7 @@ const GALLERY_IMAGES = [
   },
   {
     src: "/images/front view.jpeg",
-    alt: "Morari Medico Front View",
+    alt: "Murari Medico Front View",
     label: "Front View",
     w: 800,
     h: 600,

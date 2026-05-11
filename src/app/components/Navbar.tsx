@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
 
 const WHATSAPP_URL =
-  "https://wa.me/919955793186?text=Hello%20Morari%20Medico,%20I%20want%20to%20book%20a%20slot%20with%20Dr.%20A.K.%20Ghosh.";
+  "https://wa.me/919955793186?text=Hello%20Murari%20Medico,%20I%20want%20to%20book%20a%20slot%20with%20Dr.%20A.K.%20Ghosh.";
 
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
@@ -32,7 +32,7 @@ export default function Navbar() {
         <a href="#home" className="flex items-center group">
           <Image
             src="/images/Morari Medico logo.png"
-            alt="Morari Medico Logo"
+            alt="Murari Medico Logo"
             width={240}
             height={64}
             className="h-16 sm:h-20 w-auto object-contain brightness-110"

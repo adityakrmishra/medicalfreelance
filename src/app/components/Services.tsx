@@ -154,7 +154,7 @@ export default function Services() {
             <div className="bg-white p-8 rounded-3xl shadow-2xl shadow-black/30 glow-emerald">
               <Image
                 src="/images/Morari Medico logo.png"
-                alt="Morari Medico Shield"
+                alt="Murari Medico Shield"
                 width={280}
                 height={280}
                 className="w-56 h-auto object-contain"

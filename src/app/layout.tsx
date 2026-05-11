@@ -13,11 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Morari Medico — Premium Healthcare & Authentic Pharmacy | Dr. A.K. Ghosh",
+  metadataBase: new URL("https://murarimedico.netlify.app/"),
+  title: "Murari Medico — Premium Healthcare & Authentic Pharmacy | Dr. A.K. Ghosh",
   description:
-    "Morari Medico offers trusted medical consultations by Dr. A.K. Ghosh (M.D., FIC, FIEC) and 24/7 authentic pharmacy services in Gopalganj, Bihar. Cardiology, General Medicine & more.",
+    "Murari Medico offers trusted medical consultations by Dr. A.K. Ghosh (M.D., FIC, FIEC) and 24/7 authentic pharmacy services in Gopalganj, Bihar. Cardiology, General Medicine & more.",
   keywords: [
-    "Morari Medico",
+    "Murari Medico",
     "Dr. A.K. Ghosh",
     "clinic Gopalganj",
     "pharmacy Kuchaikot",
@@ -30,9 +31,10 @@ export const metadata: Metadata = {
     apple: "/images/Morari Medico logo.png",
   },
   openGraph: {
-    title: "Morari Medico — Premium Healthcare & Authentic Pharmacy",
+    title: "Murari Medico — Premium Healthcare & Authentic Pharmacy",
     description:
       "Trusted medical consultations by Dr. A.K. Ghosh and 24/7 authentic pharmacy services in Gopalganj, Bihar.",
+    url: "https://murarimedico.netlify.app/",
     type: "website",
     locale: "en_IN",
   },
